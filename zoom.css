@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    font-family: "Work Sans", serif;
+}
+
+.card-img{
+    width: 424px;
+    height: 283px;
+
+}
+
+.card-title{
+    text-align: center;
+}
+
+span{
+    color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 18px;
+font-weight: 600;
+
+letter-spacing: 0%;
+text-align: center;
+padding: 10px 14px 10px 14px;
+border-radius: 8px;
+
+background: rgba(82, 195, 3, 0.15);
+
+}
+
+h1{
+    color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 30px;
+font-weight: 600;
+
+letter-spacing: 0%;
+
+
+}
+
+p{
+    color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 18px;
+font-weight: 500;
+
+letter-spacing: 0%;
+
+}
+
+.btn{
+    border-radius: 8px;
+
+background: rgb(82, 195, 3);
+
+
+height: 50px;
+gap: 10;
+padding: 12px 15px 12px 15px;
+color: rgb(255, 255, 255);
+font-family: Work Sans;
+font-size: 14px;
+font-weight: 600;
+
+letter-spacing: 0%;
+text-align: center;
+border: none;
+transition:0.3s ease, color 0.3s ease;
+
+}
+.card-contener{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid;
+    padding: 5px;
+    box-shadow: 5px 10px 15px 20px;
+    width: 430px;
+    height: 510px;
+    margin: auto;
+    border-radius: 15px;
+    margin-top: 50px;
+    transition: 0.3s ease, color 0.3s ease;
+}
+
+.card-title{
+    margin-top: 15px;
+}
+
+.btn:hover{
+    background-color: #CDC1FF;
+    color: #5E686D;
+}
+
+.card-contener:hover{
+    transform: scale(1.1); 
+}
